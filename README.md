@@ -1,1 +1,2 @@
-# dlza-ontology
+# DLZA Longterm-Preservation Ontology
+This ontology extends the CIDOC CRM 7.1.2. (https://www.cidoc-crm.org/cidoc-crm/7.1.2) and the compatible model of CRMdig 4.0 (https://cidoc-crm.org/extensions/crmdig/4.0) with concepts of digital long-term archiving at the Germanisches Nationalmuseum. Author Robert Nasarek (r.nasarek@gnm.de). Repository: https://github.com/rnsrk/dlza-ontology.
