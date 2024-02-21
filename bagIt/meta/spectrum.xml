@@ -1,0 +1,43 @@
+<Record xmlns="http://www.collectionstrust.org.uk/spectrum" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.collectionstrust.org.uk/spectrum http://www.collectionstrust.org.uk/spectrum/spectrum.xsd">
+  <ObjectEntryNumber>ABC12345</ObjectEntryNumber>
+  <Title>Antike Vase</Title>
+  <Classification>
+    <Type>Archäologische Funde</Type>
+    <Term>Antike Keramik</Term>
+  </Classification>
+  <Production>
+    <Creator>Unbekannt</Creator>
+    <Date>500 v. Chr.</Date>
+    <Materials>Ton</Materials>
+    <Techniques>Handgefertigt</Techniques>
+  </Production>
+  <Measurements>
+    <Unit>cm</Unit>
+    <Height>25</Height>
+    <Diameter>15</Diameter>
+    <Weight>1 kg</Weight>
+  </Measurements>
+  <Description>Dies ist eine antike handgefertigte Vase aus Ton, die um 500 v. Chr. hergestellt wurde.</Description>
+  <History>
+    <Provenance>Erworben von einer Privatsammlung im Jahr 1970.</Provenance>
+  </History>
+  <Acquisition>
+    <Date>1. Januar 1970</Date>
+    <Method>Kauf</Method>
+    <AcquiredFrom>Privatsammlung</AcquiredFrom>
+  </Acquisition>
+  <Location>
+    <CurrentLocation>Ausstellungssaal 2</CurrentLocation>
+  </Location>
+  <Condition>
+    <DisplayStatus>Ausgestellt</DisplayStatus>
+    <ConditionCheck>
+      <Date>1. Juli 2023</Date>
+      <ConditionReport>Guter Zustand, leichte Abnutzungsspuren.</ConditionReport>
+    </ConditionCheck>
+  </Condition>
+  <Rights>
+    <CopyrightStatus>Alle Rechte vorbehalten</CopyrightStatus>
+    <RightsHolder>Museum ABC</RightsHolder>
+  </Rights>
+</Record>

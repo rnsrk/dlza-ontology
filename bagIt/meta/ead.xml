@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <eadheader>
+    <eadid>MS-001</eadid>
+    <filedesc>
+      <titlestmt>
+        <title>Fiktive Sammlung</title>
+        <author>John Doe</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archiv XYZ</publisher>
+        <address>
+          <addressline>Beispielstraße 123</addressline>
+          <addressline>12345 Musterstadt</addressline>
+          <addressline>Land</addressline>
+        </address>
+        <date>2023-07-31</date>
+      </publicationstmt>
+      <seriesstmt>
+        <title>Serie 1</title>
+      </seriesstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>2023-07-31</creation>
+      <langusage>Deutsch</langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Archiv XYZ</corpname>
+      </repository>
+      <unittitle>Fiktive Sammlung</unittitle>
+      <unitid>MS-001</unitid>
+      <unitdate>1940-2000</unitdate>
+    </did>
+    <scopecontent>
+      <p>Dies ist eine fiktive Sammlung, die Materialien aus den Jahren 1940 bis 2000 umfasst.</p>
+    </scopecontent>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Serie 1</unittitle>
+          <unitid>MS-001-01</unitid>
+          <unitdate>1940-1950</unitdate>
+        </did>
+        <scopecontent>
+          <p>Dies ist Serie 1, die Materialien aus den Jahren 1940 bis 1950 enthält.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Akte 1</unittitle>
+            <unitid>MS-001-01-001</unitid>
+            <unitdate>1940-1945</unitdate>
+          </did>
+          <scopecontent>
+            <p>Dies ist Akte 1, die Materialien aus den Jahren 1940 bis 1945 enthält.</p>
+          </scopecontent>
+        </c>
+        <!-- Weitere Unterabschnitte (Files) von Serie 1 könnten hier folgen -->
+      </c>
+      <!-- Weitere Serien oder Bestandteile der Sammlung könnten hier folgen -->
+    </dsc>
+  </archdesc>
+</ead>
